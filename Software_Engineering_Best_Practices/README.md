@@ -1,7 +1,7 @@
 ###1) Use Proper package structure
 Don't keep all type of code files into same folder. Create different packages to logically separate codes and put them into their respective places.
 For example, all configuration related codes should go into configuration package, all database connection related code should go into persistent.
-You can be creative about naming packages. The package naming stands follow like com.CompanyName.namespace1 or org.OrganizationName.namespace1.
+You can be creative about naming packages. The package naming standards follow like com.CompanyName.namespace1 or org.OrganizationName.namespace1.
  
 ###2) Use Configuration file for Variable parameters
 Always remember to create conf file for changeable parameters used in code. Something like database name or Server IP address.
